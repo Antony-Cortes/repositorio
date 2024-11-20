@@ -1,0 +1,22 @@
+    1  pwd
+    2  cd Desktop
+    3  ls
+    4  mkdir repositorio
+    5  cd repositorio
+    6  code .
+    7  pwd
+    8  code .
+    9  touch A.txt
+   10  echo "Hola Repositorio " > A.txt
+   11  cat A.txt
+   12  git init
+   13  gid add A.txt
+   14  git add A.txt
+   15  git status
+   16  git commit -m "First commit"
+   17  git config --global user.email "iavila24@uabc.edu.mx"
+   18  git branch -M main
+   19  git remote add origin https://github.com/Antony-Cortes/repositorio.git
+   20  git push -u origin main
+   21  git push -u origin main
+   22  history > comandos.txt
